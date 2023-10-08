@@ -14,7 +14,12 @@ Advantage:
 Disadvantage:
 - `SwiftData`, @EnviromentObject`, ... need to be put at View
 
+Demo projects applied MVVM:
+- [IceCubesApp](https://github.com/Dimillian/IceCubesApp) - `3.7k Stars`
+
 ## 2. TCA
+
+Link: https://github.com/pointfreeco/swift-composable-architecture
 
 Advantage:
 - Great documents
