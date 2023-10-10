@@ -5,7 +5,7 @@
 3. @StateObject
 4. @ObservableObject & @Obsereved
 5. @EnviromentObject
-6. @Observable
+6. @Observable, @Enviroment, @Bindable
 
 ## @State
 
@@ -181,7 +181,10 @@ After
     }
 ```
 
+### Why @Observable has better performance compared to @ObservableObject?
+
 ### References:
 
 - [Migrate ObservableObject to Observable by Apple](https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro) https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
 - [@Binding vs @Bindable](https://www.donnywals.com/whats-the-difference-between-binding-and-bindable/)
+- [Deep dive to @Observable](https://betterprogramming.pub/a-deep-dive-into-observation-a-new-way-to-boost-swiftui-performance-f299831c664b)
