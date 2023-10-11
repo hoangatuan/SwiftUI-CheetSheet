@@ -183,6 +183,13 @@ After
 
 ### Why @Observable has better performance compared to @ObservableObject?
 
+- With @ObservableObject, all views which have a direct dependency to the @ObservableObject will be redraw when a @Published property change, even if the view doesn't use that @ObsevableObject
+- WIth @Observable, only part that uses `@Observable` will be redraw
+
+### Testing?
+
+- https://betterprogramming.pub/unit-test-the-observation-framework-d0f0fe240944
+
 ### References:
 
 - [Migrate ObservableObject to Observable by Apple](https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro) https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
